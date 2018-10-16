@@ -1,0 +1,75 @@
+body {
+    padding: 20px;
+    text-align: center;
+    background-color: black;
+}
+body.light, body.blue {
+    background-size: 400px auto;
+    background-color: white;
+}
+body.blue {
+    background-color: blue;
+}
+body.dark {
+    background: url('../images/dark.png') top right no-repeat no-repeat black;
+}
+body.text {
+    color: white;
+  }
+}
+
+
+#yourButton {
+    cursor: pointer;
+    height: 50px;
+    margin-top: 100px;
+    background-color: pink;
+}
+#result-image {
+    margin-top: 100px;
+    margin-left: 200px;
+    height: 200px;
+    max-width: 200px;
+    background: url('../images/beaten-up.png') no-repeat;
+    background-size: contain;
+}
+#result-image2 {
+    margin-top: 100px;
+    margin-left: 200px;
+    height: 200px;
+    max-width: 200px;
+    background: url('../images/confused.png') no-repeat;
+    background-size: contain;
+}
+#result-image3 {
+    margin-top: 100px;
+    margin-left: 200px;
+    height: 200px;
+    max-width: 200px;
+    background: url('../images/embarrassed.png') no-repeat;
+    background-size: contain;
+}
+#result-image4 {
+    margin-top: 100px;
+    margin-left: 200px;
+    height: 200px;
+    max-width: 200px;
+    background: url('../images/hungry.png') no-repeat;
+    background-size: contain;
+}
+#result-image5 {
+    margin-top: 100px;
+    margin-left: 200px;
+    height: 200px;
+    max-width: 200px;
+    background: url('../images/in-love.png') no-repeat;
+    background-size: contain;
+}
+#result-image6 {
+    margin-top: 100px;
+    margin-left: 200px;
+    height: 200px;
+    max-width: 200px;
+    background: url('../images/sad.png') no-repeat;
+    background-size: contain;
+}
