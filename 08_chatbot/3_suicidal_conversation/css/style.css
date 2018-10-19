@@ -1,0 +1,148 @@
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #4c4c4c;
+     font-size: 16px;
+     line-height: 1.4;
+     font-family: Helvetica, Arial, sans-serif;
+     background-image: url('../images/bkgrnd.png');
+
+
+}
+
+
+.center {
+    display: block;
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+    padding:20%;
+
+}
+
+.message {
+ 	border: 1px solid #007AFF;
+ 	/*background: #007AFF;*/
+ 	padding:2%;
+ 	width: 40%;
+ 	color: #fff;
+ 	border-radius:  20px;
+
+ }
+
+ .card-main {
+  border: 0;
+  border-radius: 1rem;
+  /*box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);*/
+  box-shadow: 0 5px 30px rgba(0, 0, 0, .6);
+  background: rgba(0, 0, 0, .5);
+
+}
+
+.card-main.card-title {
+  margin-bottom: 2rem;
+  font-weight: 300;
+  font-size: 1.5rem;
+
+}
+
+.card-main.card-body {
+  padding: 2rem;
+}
+
+#conversation {
+  color: grey;
+  background: blue;
+  background-color: #FFFF;
+
+
+
+
+}
+
+.list-group-item {
+  color: grey;
+  background-color: white;
+
+
+
+}
+
+.btn-success {
+    color: white;
+    background-color: #27AEE3;
+    font-size: 80%;
+    border-radius: 5rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    padding: 1rem;
+    transition: all 0.2s;
+  }
+
+  /* ########Loader######## */
+  #wait{
+     /* display:none; */
+     width:200px;
+     height:200px;
+     /* border:1px solid black; */
+     position:absolute;
+     top:45%;
+     left:30%;
+     padding:2px;
+}
+#susan{
+  color: rgb(231, 108, 8);
+}
+#me{
+  color:rgb(8, 19, 231);
+}
+#header {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  text-align: left;
+}
+#header:hover{
+  text-decoration: none;
+  border-bottom: solid 2px;
+  transition: .2s;
+  font-family: 'Poppins', sans-serif;
+}
+/* so the message box doesnt expand to the bottom of the screen */
+#newcard-Body{
+height: 400px;
+overflow: scroll;
+}
+
+#timestamp{
+    display: none;
+}
+
+#quote{
+    font-size: 14pt;
+    color:orange;
+    font-family: 'Poppins', sans-serif;
+
+}
+#person{
+    font-size:12pt;
+    text-align:right;
+    color:white;
+}
+#pic{
+    border-radius:50%;
+    border:solid white 5px;
+    position:absolute;top:-50px;
+    left:30%;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, .6);
+
+}
+
+/******************************************
+/* LAYOUT/BOOTSTRAP OVERRIDE
+/*******************************************/
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

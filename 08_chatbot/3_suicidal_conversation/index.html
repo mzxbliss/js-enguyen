@@ -12,29 +12,51 @@
 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
+  <!-- Custom fotns from google -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="./css/style.css" rel="stylesheet">
 
   </head>
   <body>
+    <h4 class="display-4 text-center"><a id="header" href="https://suicidepreventionlifeline.org/">Suicide Prevention Lifeline Chat</a></h4>
+    <hr>
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-6 mt-3">
 
+          <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+
+            <div class="card card-main my-5">
+
+            <div class="card-body">
+              <div class="center">
+                      <img id="pic" src="images/counselor-face.jpg" width="200" height="200" />
+
+
+                <!--<h1 id="quote">hiii</h1>-->
+                <!--<h1 id="person">-nando</h1>-->
+
+              </div>
+              <!--<h5 class="card-title text-center">Susan</h5>-->
                 <form id="formMessage" autocomplete="off">
-                    <div class="input-group mb-3">
+
+                </form>
+                <!-- ### new div to scroll through -->
+              <div id="newcard-Body">
+                <ul id="conversation" class="list-group">
+
+                      <li class="list-group-item list-group-item-success">Please wait...</li>
+                        <input id="timestamp" type="text"/>
+
+                </ul>
+                <img id="wait" src='images/loader.gif' width="64" height="64"/>
+              </div>
+               <div class="input-group mb-3">
                         <input id="message" type="text" class="form-control" placeholder="Send message">
                         <div class="input-group-append">
                             <button id="addMessage" class="btn btn-success" type="button">Send</button>
-                        </div>
+                          </div>
                     </div>
-                </form>
-
-                <ul id="conversation" class="list-group-danger">
-                    <li class="list-group-item list-group-item-success">Conversation</li>
-                </ul>
-
             </div>
         </div>
     </div>
